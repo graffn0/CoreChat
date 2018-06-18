@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MeCell.h
 //  CoreChat
 //
 //  Created by admin on 4/19/16.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CCell.h"
 
-@interface ViewController : UIViewController
+@interface MeCell : CCell
 
+@property (weak, nonatomic) IBOutlet UILabel *lblChat;
 
 @end
-

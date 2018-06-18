@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847CE4491CC7B67B002467D1 /* ChatEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CE4481CC7B67B002467D1 /* ChatEngine.m */; };
+		847CE44B1CC7B691002467D1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847CE44A1CC7B691002467D1 /* CoreBluetooth.framework */; };
+		847CE44E1CC7E15E002467D1 /* CCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CE44D1CC7E15E002467D1 /* CCell.m */; };
 		84B2B13C1CC667CF004819D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B13B1CC667CF004819D1 /* main.m */; };
 		84B2B13F1CC667CF004819D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B13E1CC667CF004819D1 /* AppDelegate.m */; };
 		84B2B1421CC667CF004819D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B1411CC667CF004819D1 /* ViewController.m */; };
@@ -14,9 +17,20 @@
 		84B2B1481CC667CF004819D1 /* CoreChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B1461CC667CF004819D1 /* CoreChat.xcdatamodeld */; };
 		84B2B14A1CC667CF004819D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B1491CC667CF004819D1 /* Assets.xcassets */; };
 		84B2B14D1CC667CF004819D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2B14B1CC667CF004819D1 /* LaunchScreen.storyboard */; };
+		84B2B1561CC66CE9004819D1 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B1551CC66CE9004819D1 /* ChatCell.m */; };
+		84B2B1591CC66D08004819D1 /* MeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B1581CC66D08004819D1 /* MeCell.m */; };
+		84B2B1621CC67700004819D1 /* Messages+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B15B1CC67700004819D1 /* Messages+CoreDataProperties.m */; };
+		84B2B1631CC67700004819D1 /* Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B15D1CC67700004819D1 /* Messages.m */; };
+		84B2B1641CC67700004819D1 /* Users+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B15F1CC67700004819D1 /* Users+CoreDataProperties.m */; };
+		84B2B1651CC67700004819D1 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2B1611CC67700004819D1 /* Users.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847CE4471CC7B67B002467D1 /* ChatEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatEngine.h; sourceTree = "<group>"; };
+		847CE4481CC7B67B002467D1 /* ChatEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatEngine.m; sourceTree = "<group>"; };
+		847CE44A1CC7B691002467D1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		847CE44C1CC7E15E002467D1 /* CCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCell.h; sourceTree = "<group>"; };
+		847CE44D1CC7E15E002467D1 /* CCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCell.m; sourceTree = "<group>"; };
 		84B2B1371CC667CF004819D1 /* CoreChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2B13B1CC667CF004819D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B2B13D1CC667CF004819D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +42,18 @@
 		84B2B1491CC667CF004819D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B2B14C1CC667CF004819D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B2B14E1CC667CF004819D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B2B1541CC66CE9004819D1 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		84B2B1551CC66CE9004819D1 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		84B2B1571CC66D08004819D1 /* MeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeCell.h; sourceTree = "<group>"; };
+		84B2B1581CC66D08004819D1 /* MeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeCell.m; sourceTree = "<group>"; };
+		84B2B15A1CC67700004819D1 /* Messages+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Messages+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84B2B15B1CC67700004819D1 /* Messages+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Messages+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84B2B15C1CC67700004819D1 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
+		84B2B15D1CC67700004819D1 /* Messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Messages.m; sourceTree = "<group>"; };
+		84B2B15E1CC67700004819D1 /* Users+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Users+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84B2B15F1CC67700004819D1 /* Users+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Users+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84B2B1601CC67700004819D1 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		84B2B1611CC67700004819D1 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847CE44B1CC7B691002467D1 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +71,7 @@
 		84B2B12E1CC667CF004819D1 = {
 			isa = PBXGroup;
 			children = (
+				847CE44A1CC7B691002467D1 /* CoreBluetooth.framework */,
 				84B2B1391CC667CF004819D1 /* CoreChat */,
 				84B2B1381CC667CF004819D1 /* Products */,
 			);
@@ -60,10 +88,19 @@
 		84B2B1391CC667CF004819D1 /* CoreChat */ = {
 			isa = PBXGroup;
 			children = (
+				84B2B1661CC67719004819D1 /* Model */,
 				84B2B13D1CC667CF004819D1 /* AppDelegate.h */,
 				84B2B13E1CC667CF004819D1 /* AppDelegate.m */,
 				84B2B1401CC667CF004819D1 /* ViewController.h */,
 				84B2B1411CC667CF004819D1 /* ViewController.m */,
+				847CE44C1CC7E15E002467D1 /* CCell.h */,
+				847CE44D1CC7E15E002467D1 /* CCell.m */,
+				84B2B1541CC66CE9004819D1 /* ChatCell.h */,
+				84B2B1551CC66CE9004819D1 /* ChatCell.m */,
+				84B2B1571CC66D08004819D1 /* MeCell.h */,
+				84B2B1581CC66D08004819D1 /* MeCell.m */,
+				847CE4471CC7B67B002467D1 /* ChatEngine.h */,
+				847CE4481CC7B67B002467D1 /* ChatEngine.m */,
 				84B2B1431CC667CF004819D1 /* Main.storyboard */,
 				84B2B1491CC667CF004819D1 /* Assets.xcassets */,
 				84B2B14B1CC667CF004819D1 /* LaunchScreen.storyboard */,
@@ -80,6 +117,21 @@
 				84B2B13B1CC667CF004819D1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B2B1661CC67719004819D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B2B15A1CC67700004819D1 /* Messages+CoreDataProperties.h */,
+				84B2B15B1CC67700004819D1 /* Messages+CoreDataProperties.m */,
+				84B2B15C1CC67700004819D1 /* Messages.h */,
+				84B2B15D1CC67700004819D1 /* Messages.m */,
+				84B2B15E1CC67700004819D1 /* Users+CoreDataProperties.h */,
+				84B2B15F1CC67700004819D1 /* Users+CoreDataProperties.m */,
+				84B2B1601CC67700004819D1 /* Users.h */,
+				84B2B1611CC67700004819D1 /* Users.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +165,7 @@
 				TargetAttributes = {
 					84B2B1361CC667CF004819D1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5RPV4F5523;
 					};
 				};
 			};
@@ -154,8 +207,16 @@
 			files = (
 				84B2B1421CC667CF004819D1 /* ViewController.m in Sources */,
 				84B2B13F1CC667CF004819D1 /* AppDelegate.m in Sources */,
+				847CE4491CC7B67B002467D1 /* ChatEngine.m in Sources */,
+				84B2B1621CC67700004819D1 /* Messages+CoreDataProperties.m in Sources */,
+				84B2B1641CC67700004819D1 /* Users+CoreDataProperties.m in Sources */,
 				84B2B1481CC667CF004819D1 /* CoreChat.xcdatamodeld in Sources */,
+				84B2B1561CC66CE9004819D1 /* ChatCell.m in Sources */,
+				84B2B1651CC67700004819D1 /* Users.m in Sources */,
+				84B2B1631CC67700004819D1 /* Messages.m in Sources */,
+				847CE44E1CC7E15E002467D1 /* CCell.m in Sources */,
 				84B2B13C1CC667CF004819D1 /* main.m in Sources */,
+				84B2B1591CC66D08004819D1 /* MeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +330,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CoreChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = world.CoreChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -280,10 +344,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CoreChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = world.CoreChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -306,6 +373,7 @@
 				84B2B1531CC667CF004819D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
